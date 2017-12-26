@@ -1,0 +1,436 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+<meta content="webkit" name="renderer" />
+<title>Monkey - WordPress资讯主题</title>
+<meta name="keywords" content="wordpress主题,仿新版36kr">
+<meta name="description" content="仿2015新版36kr wordpress主题">
+<link rel="shortcut icon" href="">
+<link href="http://demo.mobantu.com/monkey/wp-content/themes/monkey/style.css" media="all" rel="stylesheet" />
+<script>window._MBT = {uri: 'http://demo.mobantu.com/monkey/wp-content/themes/monkey',ajax: '1'}</script>
+<script src="http://demo.mobantu.com/monkey/wp-content/themes/monkey/static/js/base.js"></script>
+<!--[if lt IE 9]>
+<script src="http://demo.mobantu.com/monkey/wp-content/themes/monkey/static/js/html5shiv.js"></script>
+<![endif]-->
+<meta name='robots' content='noindex,follow' />
+        <script type="text/javascript">
+            window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/demo.mobantu.com\/monkey\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.13"}};
+            !function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+        </script>
+        <style type="text/css">
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+</style>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcollect_ajax_url = "http:\/\/demo.mobantu.com\/monkey\/wp-admin\/admin-ajax.php";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://demo.mobantu.com/monkey/wp-content/plugins/wp-collect/static/js/wp-collect.js?ver=1.0.0'></script>
+<link rel='https://api.w.org/' href='http://demo.mobantu.com/monkey/wp-json/' />
+<style type="text/css">
+.ias_pagination{display:none}</style>
+</head>
+<body class="home blog">
+<header class="common-header J_commonHeaderWrapper header-wrap">
+  <div class="container"> <a class="logo" href="http://demo.mobantu.com/monkey"> <img src="http://demo.mobantu.com/monkey/wp-content/themes/monkey/static/img/logo.png" alt="Monkey"> </a>
+    <div class="triggers"> <a class="headericon-header-search J_searchTrigger" href="javascript:void(0)"></a> <a class="headericon-header-menu J_menuTrigger" href="javascript:void(0)"></a> </div>
+    <nav>
+      <ul class="J_navList">
+        <li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-5"><a href="http://demo.mobantu.com/monkey/">首页</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13"><a href="http://demo.mobantu.com/monkey/category/news">IPFS矿机</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14"><a href="http://demo.mobantu.com/monkey/category/companies">关于</a></li>
+        <li class="mobile-show"> </li>
+      </ul>
+    </nav>
+    <div class="right-col J_rightNavWrapper">
+      <ul class="sub-nav">
+                <li class="tougao-item">
+            <a href="http://demo.mobantu.com/monkey/tougao"><i class="headericon-header-msg"></i> 投稿</a>
+        </li>
+                <li class="search-item"> <a href="javascript:void(0)"><i class="headericon-header-search"></i> 搜索</a>
+          <div class="search-wrap pop-up">
+            <div class="searchbar">
+              <form action="http://demo.mobantu.com/monkey/" class="J_searchForm">
+                <input type="text" placeholder="输入关键字" ng-model="keyword" name="s">
+                <button class="headericon-header-search search-icon" type="submit"></button>
+                <button class="headericon-close close-icon" type="button"></button>
+              </form>
+            </div>
+          </div>
+        </li>
+                        <li class="login-actions" id="login-reg"> <a href="javascript:void(0)" data-sign="0" id="user-login" class="user-login login-link J_login only-login"><i class="headericon-header-user"></i> 登录/注册</a> </li>
+              </ul>
+    </div>
+  </div>
+</header>
+<div class="mobile-nav J_mobileNav">
+  <ul>
+    <li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12"><a href="http://demo.mobantu.com/monkey/">首页</a></li>
+<li id="menu-item-6" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6"><a href="http://demo.mobantu.com/monkey/category/news">新闻</a></li>
+<li id="menu-item-7" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7"><a href="http://demo.mobantu.com/monkey/category/companies">公司</a></li>
+<li id="menu-item-8" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8"><a href="http://demo.mobantu.com/monkey/category/devices">设备</a></li>
+<li id="menu-item-9" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9"><a href="http://demo.mobantu.com/monkey/category/voice">大声</a></li>
+<li id="menu-item-10" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10"><a href="http://demo.mobantu.com/monkey/category/apps">应用</a></li>
+<li id="menu-item-11" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11"><a href="http://demo.mobantu.com/monkey/category/people">人物</a></li>
+  </ul>
+</div>
+<div class="sitetips">这是公告，可开启显示或关闭。</div><link href="http://demo.mobantu.com/monkey/wp-content/themes/monkey/static/css/index.css" media="all" rel="stylesheet" />
+<div class="index-wrap">
+  <div class="head-images J_headImages">
+    <div class="scrollers"><a data-lazyload="http://a.36krcnd.com/nil_class/ecbf17f7-14f6-4d36-b579-1d1eb59c39c0/2016-04-01-1459488050-1567099-bvs.jpg" href="#" id="headline_top" target="_blank"><img alt="" src="http://a.36krcnd.com/nil_class/ecbf17f7-14f6-4d36-b579-1d1eb59c39c0/2016-04-01-1459488050-1567099-bvs.jpg" /><span>“项庄舞剑，意在沛公”：看似加强支付监管，央行实际是要提高P2P资金托管安全性</span></a></div>
+    <div class="smaller-images">
+      <div class="block wider article"><a data-lazyload="http://a.36krcnd.com/nil_class/ecbf17f7-14f6-4d36-b579-1d1eb59c39c0/2016-04-01-1459488050-1567099-bvs.jpg" href="http://www.mobantu.com/5535.html" id="headline_one" target="_blank"><span>购买此主题</span></a></div>
+            <div class="block article"><a data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/evernote.jpg&#38;w=220&#38;h=160&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/511" target="_blank"><span>菲尔·利宾：可穿戴设备这事儿我想了好多年</span></a></div>
+            <div class="block article"><a data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/t12.jpg&#38;w=220&#38;h=160&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/510" target="_blank"><span>Chromebook 赢了 iPad，在教育市场</span></a></div>
+            <div class="block article"><a data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/huawei-p7-aa-9-of-23.jpg&#38;w=220&#38;h=160&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/509" target="_blank"><span>华为称“没人能从 Windows Phone 中赚钱”</span></a></div>
+            <div class="block article"><a data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/01.png&#38;w=220&#38;h=160&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/508" target="_blank"><span>2015 年再推 Google Glass，内置英特尔芯片</span></a></div>
+          </div>
+  </div>  <div class="main-section">
+    <div class="news-list J_articleListWrap" >
+      <div class="categories J_newsListNavBar"><ul class="newslistul">
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-12"><a href="http://demo.mobantu.com/monkey/">首页</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6"><a href="http://demo.mobantu.com/monkey/category/news">新闻</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7"><a href="http://demo.mobantu.com/monkey/category/companies">公司</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8"><a href="http://demo.mobantu.com/monkey/category/devices">设备</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9"><a href="http://demo.mobantu.com/monkey/category/voice">大声</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10"><a href="http://demo.mobantu.com/monkey/category/apps">应用</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11"><a href="http://demo.mobantu.com/monkey/category/people">人物</a></li>
+</ul></div>
+      <div class="article-list">
+        <div class="articles J_articleList ias_container">
+          <article class="excerpt ias_excerpt">
+    <a class="pic info_flow_news_image badge-MBT" data-fit-mobile="true" data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/evernote.jpg&#38;w=165&#38;h=120&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/511"></a>
+    <a href="http://demo.mobantu.com/monkey/category/companies"><span class="info_cat" style="background:#ff6666;">公司</span></a>    <div class="desc"><a class="title info_flow_news_title" href="http://demo.mobantu.com/monkey/511" target="_blank">菲尔·利宾：可穿戴设备这事儿我想了好多年</a>
+      <div class="author"><a href="http://demo.mobantu.com/monkey/author/admin"><span class="avatar" data-lazyload="http://demo.mobantu.com/monkey/wp-content/uploads/avatar/avatar-1.jpg"></span><span class="name">admin</span></a><span class="time">&nbsp;•&nbsp;
+        <time class="timeago" datetime="2014-12-03 11:16:43">3年前 (2014-12-03)</time>
+        </span></div>
+      <div class="brief">
+Evernote 最近动作不小，新版本推出了 WorkChat 和 Context 功能，一增强协作，目标是革掉 Google Drive 和 Office 的命，二...</div>
+    </div>
+</article>
+<article class="excerpt ias_excerpt">
+    <a class="pic info_flow_news_image badge-MBT" data-fit-mobile="true" data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/t12.jpg&#38;w=165&#38;h=120&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/510"></a>
+    <a href="http://demo.mobantu.com/monkey/category/news"><span class="info_cat" style="background:;">新闻</span></a>    <div class="desc"><a class="title info_flow_news_title" href="http://demo.mobantu.com/monkey/510" target="_blank">Chromebook 赢了 iPad，在教育市场</a>
+      <div class="author"><a href="http://demo.mobantu.com/monkey/author/admin"><span class="avatar" data-lazyload="http://demo.mobantu.com/monkey/wp-content/uploads/avatar/avatar-1.jpg"></span><span class="name">admin</span></a><span class="time">&nbsp;•&nbsp;
+        <time class="timeago" datetime="2014-12-02 03:49:59">3年前 (2014-12-02)</time>
+        </span></div>
+      <div class="brief">
+IDC 最新公布的数据显示，在教育市场， Google Chromebook 的受欢迎程度首次超过苹果的 iPad。2014 年第三季度，Chromebook...</div>
+    </div>
+</article>
+<article class="excerpt ias_excerpt">
+    <a class="pic info_flow_news_image badge-MBT" data-fit-mobile="true" data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/huawei-p7-aa-9-of-23.jpg&#38;w=165&#38;h=120&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/509"></a>
+    <a href="http://demo.mobantu.com/monkey/category/news"><span class="info_cat" style="background:;">新闻</span></a>    <div class="desc"><a class="title info_flow_news_title" href="http://demo.mobantu.com/monkey/509" target="_blank">华为称“没人能从 Windows Phone 中赚钱”</a>
+      <div class="author"><a href="http://demo.mobantu.com/monkey/author/admin"><span class="avatar" data-lazyload="http://demo.mobantu.com/monkey/wp-content/uploads/avatar/avatar-1.jpg"></span><span class="name">admin</span></a><span class="time">&nbsp;•&nbsp;
+        <time class="timeago" datetime="2014-12-02 03:49:37">3年前 (2014-12-02)</time>
+        </span></div>
+      <div class="brief">
+据 The Verge 报道，今年早些时候华为曾放言要制造一台在美国推出的双启动 Windows Phone，然而这项计划很快就不了了之，华...</div>
+    </div>
+</article>
+<article class="excerpt ias_excerpt">
+    <a class="pic info_flow_news_image badge-MBT" data-fit-mobile="true" data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/01.png&#38;w=165&#38;h=120&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/508"></a>
+    <a href="http://demo.mobantu.com/monkey/category/news"><span class="info_cat" style="background:;">新闻</span></a>    <div class="desc"><a class="title info_flow_news_title" href="http://demo.mobantu.com/monkey/508" target="_blank">2015 年再推 Google Glass，内置英特尔芯片</a>
+      <div class="author"><a href="http://demo.mobantu.com/monkey/author/admin"><span class="avatar" data-lazyload="http://demo.mobantu.com/monkey/wp-content/uploads/avatar/avatar-1.jpg"></span><span class="name">admin</span></a><span class="time">&nbsp;•&nbsp;
+        <time class="timeago" datetime="2014-12-02 03:49:15">3年前 (2014-12-02)</time>
+        </span></div>
+      <div class="brief">
+Google 将于 2015 年推出一款全新的 Google Glass 型号，这个型号将使用英特尔芯片，以提供比 Google Glass Explorer Editio...</div>
+    </div>
+</article>
+<article class="excerpt ias_excerpt">
+    <a class="pic info_flow_news_image badge-MBT" data-fit-mobile="true" data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/VOX.jpg&#38;w=165&#38;h=120&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/506"></a>
+    <a href="http://demo.mobantu.com/monkey/category/news"><span class="info_cat" style="background:;">新闻</span></a>    <div class="desc"><a class="title info_flow_news_title" href="http://demo.mobantu.com/monkey/506" target="_blank">新媒体 Vox Meaid 融资 4650 万美元，估值 3.8 亿</a>
+      <div class="author"><a href="http://demo.mobantu.com/monkey/author/admin"><span class="avatar" data-lazyload="http://demo.mobantu.com/monkey/wp-content/uploads/avatar/avatar-1.jpg"></span><span class="name">admin</span></a><span class="time">&nbsp;•&nbsp;
+        <time class="timeago" datetime="2014-12-02 03:48:30">3年前 (2014-12-02)</time>
+        </span></div>
+      <div class="brief">
+据 TechCrunch 报道，拥有着 The Verge、Racked 和 SB Nation 的美国新媒体公司 Vox Media 宣布融资 4650 万美元，此次融资...</div>
+    </div>
+</article>
+<article class="excerpt ias_excerpt">
+    <a class="pic info_flow_news_image badge-MBT" data-fit-mobile="true" data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/pizzafinal_3120506b.jpg&#38;w=165&#38;h=120&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/505"></a>
+    <a href="http://demo.mobantu.com/monkey/category/news"><span class="info_cat" style="background:;">新闻</span></a>    <div class="desc"><a class="title info_flow_news_title" href="http://demo.mobantu.com/monkey/505" target="_blank">必胜客说，潜意识暴露了你想吃什么</a>
+      <div class="author"><a href="http://demo.mobantu.com/monkey/author/admin"><span class="avatar" data-lazyload="http://demo.mobantu.com/monkey/wp-content/uploads/avatar/avatar-1.jpg"></span><span class="name">admin</span></a><span class="time">&nbsp;•&nbsp;
+        <time class="timeago" datetime="2014-12-02 03:48:06">3年前 (2014-12-02)</time>
+        </span></div>
+      <div class="brief">
+就像智能手机记录了人的行为，从中可以总结出人的习性一样，机器在很多时候可以帮助人做出更好的判断，比如，选择恐惧症患者...</div>
+    </div>
+</article>
+<article class="excerpt ias_excerpt">
+    <a class="pic info_flow_news_image badge-MBT" data-fit-mobile="true" data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/p.png&#38;w=165&#38;h=120&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/504"></a>
+    <a href="http://demo.mobantu.com/monkey/category/devices"><span class="info_cat" style="background:;">设备</span></a>    <div class="desc"><a class="title info_flow_news_title" href="http://demo.mobantu.com/monkey/504" target="_blank">PuzzlePhone，芬兰味道的模块化手机</a>
+      <div class="author"><a href="http://demo.mobantu.com/monkey/author/admin"><span class="avatar" data-lazyload="http://demo.mobantu.com/monkey/wp-content/uploads/avatar/avatar-1.jpg"></span><span class="name">admin</span></a><span class="time">&nbsp;•&nbsp;
+        <time class="timeago" datetime="2014-12-02 03:47:41">3年前 (2014-12-02)</time>
+        </span></div>
+      <div class="brief">疯狂而大胆的主意，往往让人激动人心。Project Ara 所提出的“模块化手机”，激励不少人探索类似的产品。我们此前报道了 Blocks...</div>
+    </div>
+</article>
+<article class="excerpt ias_excerpt">
+    <a class="pic info_flow_news_image badge-MBT" data-fit-mobile="true" data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/kiva.jpg&#38;w=165&#38;h=120&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/503"></a>
+    <a href="http://demo.mobantu.com/monkey/category/companies"><span class="info_cat" style="background:#ff6666;">公司</span></a>    <div class="desc"><a class="title info_flow_news_title" href="http://demo.mobantu.com/monkey/503" target="_blank">亚马逊提前完成部署 10000 机器人的目标</a>
+      <div class="author"><a href="http://demo.mobantu.com/monkey/author/admin"><span class="avatar" data-lazyload="http://demo.mobantu.com/monkey/wp-content/uploads/avatar/avatar-1.jpg"></span><span class="name">admin</span></a><span class="time">&nbsp;•&nbsp;
+        <time class="timeago" datetime="2014-12-02 03:47:17">3年前 (2014-12-02)</time>
+        </span></div>
+      <div class="brief">
+比较明白的人知道，任何一样事物上了规模，它就必然不那么简单。电子商务也如此，看上去是在网络上卖东西，但一旦同时涉及几...</div>
+    </div>
+</article>
+<article class="excerpt ias_excerpt">
+    <a class="pic info_flow_news_image badge-MBT" data-fit-mobile="true" data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/t1.jpg&#38;w=165&#38;h=120&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/501"></a>
+    <a href="http://demo.mobantu.com/monkey/category/news"><span class="info_cat" style="background:;">新闻</span></a>    <div class="desc"><a class="title info_flow_news_title" href="http://demo.mobantu.com/monkey/501" target="_blank">英特尔发力可穿戴，将为下代 Google Glass 提供芯片</a>
+      <div class="author"><a href="http://demo.mobantu.com/monkey/author/admin"><span class="avatar" data-lazyload="http://demo.mobantu.com/monkey/wp-content/uploads/avatar/avatar-1.jpg"></span><span class="name">admin</span></a><span class="time">&nbsp;•&nbsp;
+        <time class="timeago" datetime="2014-12-01 10:51:17">3年前 (2014-12-01)</time>
+        </span></div>
+      <div class="brief">
+《华尔街日报》援引知情人士消息称，英特尔将取代德州仪器，成为 Google 下一代眼镜产品的芯片提供商。报道称，这是英特尔再...</div>
+    </div>
+</article>
+<article class="excerpt ias_excerpt">
+    <a class="pic info_flow_news_image badge-MBT" data-fit-mobile="true" data-lazyload="http://demo.mobantu.com/monkey/wp-content/themes/monkey/timthumb.php&#63;src=http://cdnzz.ifanr.com/wp-content/uploads/2014/12/1015255-prstills.jpg&#38;w=165&#38;h=120&#38;zc=1&#38;q=100" href="http://demo.mobantu.com/monkey/500"></a>
+    <a href="http://demo.mobantu.com/monkey/category/news"><span class="info_cat" style="background:;">新闻</span></a>    <div class="desc"><a class="title info_flow_news_title" href="http://demo.mobantu.com/monkey/500" target="_blank">6thfinger：代替手指帮你触屏，玩个游戏也是蛮拼的</a>
+      <div class="author"><a href="http://demo.mobantu.com/monkey/author/admin"><span class="avatar" data-lazyload="http://demo.mobantu.com/monkey/wp-content/uploads/avatar/avatar-1.jpg"></span><span class="name">admin</span></a><span class="time">&nbsp;•&nbsp;
+        <time class="timeago" datetime="2014-12-01 10:50:55">3年前 (2014-12-01)</time>
+        </span></div>
+      <div class="brief">
+
+玩过《部落战争》的玩家知道，当我们嚣张地掠夺其他玩家资源的同时，我们也失去了护盾。这意味着你只要不在游戏线上，就...</div>
+    </div>
+</article>
+
+<ul class="pagination-sm pagination ias_pagination ng-isolate-scope ng-valid"><li class="ng-scope prev-page"></li><li class="ng-scope active"><a href="#">1</a></li><li class='ng-scope'><a href='http://demo.mobantu.com/monkey/page/2'>2</a></li><li class="ng-scope next-page ias_next-page"><a href="http://demo.mobantu.com/monkey/page/2" >下一页 &raquo;</a></li></ul>        </div>
+      </div>
+    </div>
+    <div class="index-side mobile-hide">
+    <div class="fast-section J_fastSection mobile-hide"><div class="list J_fastSectionList"><div class="tabs J_fastSectionNavBar"><a class="active newsflashes_nav" href="#">推荐阅读</a><a class="product_notes_nav" href="#">快讯</a></div><div class="wrap"><div class="panel"><section class="selected">
+    <h3>Chromebook 赢了 iPad，在教育市场</h3>
+    <div class="desc">
+IDC 最新公布的数据显示，在教育市场， Google Chromebook 的受欢迎程度首次超过苹果的 iPad。2014 年第三季度，Chromebooks <a href="http://demo.mobantu.com/monkey/510" target="_blank">[查看详情]</a></div>
+    <div class="info"><span class="time">
+      <time class="timeago" datetime="2014-12-02 03:49:59">3年前 (2014-12-02)</time>
+      </span><span class="share"> 分享到
+      <div class="share-group"><a class="weixin mobile-hide" href="javascript:void(0)" ref="nofollow" target="_blank"><i class="icon-weixin"></i>
+        <div class="panel-weixin">
+          <section class="weixin-section">
+            <p><img alt="Chromebook 赢了 iPad，在教育市场" src="http://s.jiathis.com/qrcode.php?url=http://demo.mobantu.com/monkey/510?via=wechat_qr" /></p>
+          </section>
+          <h3>打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</h3>
+        </div>
+        </a><a class="weibo" href="http://share.baidu.com/s?type=text&amp;searchPic=0&amp;sign=on&amp;to=tsina&amp;url=http://demo.mobantu.com/monkey/510&amp;title=Chromebook 赢了 iPad，在教育市场" ref="nofollow" target="_blank"><i class="icon-weibo"></i></a></div>。
+      </span></div>
+  </section>
+<section class="selected">
+    <h3>6thfinger：代替手指帮你触屏，玩个游戏也是蛮拼的</h3>
+    <div class="desc">
+
+玩过《部落战争》的玩家知道，当我们嚣张地掠夺其他玩家资源的同时，我们也失去了护盾。这意味着你只要不在游戏线上，就随时<a href="http://demo.mobantu.com/monkey/500" target="_blank">[查看详情]</a></div>
+    <div class="info"><span class="time">
+      <time class="timeago" datetime="2014-12-01 10:50:55">3年前 (2014-12-01)</time>
+      </span><span class="share"> 分享到
+      <div class="share-group"><a class="weixin mobile-hide" href="javascript:void(0)" ref="nofollow" target="_blank"><i class="icon-weixin"></i>
+        <div class="panel-weixin">
+          <section class="weixin-section">
+            <p><img alt="6thfinger：代替手指帮你触屏，玩个游戏也是蛮拼的" src="http://s.jiathis.com/qrcode.php?url=http://demo.mobantu.com/monkey/500?via=wechat_qr" /></p>
+          </section>
+          <h3>打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</h3>
+        </div>
+        </a><a class="weibo" href="http://share.baidu.com/s?type=text&amp;searchPic=0&amp;sign=on&amp;to=tsina&amp;url=http://demo.mobantu.com/monkey/500&amp;title=6thfinger：代替手指帮你触屏，玩个游戏也是蛮拼的" ref="nofollow" target="_blank"><i class="icon-weibo"></i></a></div>。
+      </span></div>
+  </section>
+<section class="selected">
+    <h3>Printeroid：随时随地打印手机中的照片图像</h3>
+    <div class="desc">
+
+如果你去一些旅游景点，一定能看到有人拿着印了相片的牌子并吆喝着什么“十元一张，现拍现拿”……这种时候你也许会想，如果自己<a href="http://demo.mobantu.com/monkey/499" target="_blank">[查看详情]</a></div>
+    <div class="info"><span class="time">
+      <time class="timeago" datetime="2014-12-01 10:50:33">3年前 (2014-12-01)</time>
+      </span><span class="share"> 分享到
+      <div class="share-group"><a class="weixin mobile-hide" href="javascript:void(0)" ref="nofollow" target="_blank"><i class="icon-weixin"></i>
+        <div class="panel-weixin">
+          <section class="weixin-section">
+            <p><img alt="Printeroid：随时随地打印手机中的照片图像" src="http://s.jiathis.com/qrcode.php?url=http://demo.mobantu.com/monkey/499?via=wechat_qr" /></p>
+          </section>
+          <h3>打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</h3>
+        </div>
+        </a><a class="weibo" href="http://share.baidu.com/s?type=text&amp;searchPic=0&amp;sign=on&amp;to=tsina&amp;url=http://demo.mobantu.com/monkey/499&amp;title=Printeroid：随时随地打印手机中的照片图像" ref="nofollow" target="_blank"><i class="icon-weibo"></i></a></div>。
+      </span></div>
+  </section>
+<section class="selected">
+    <h3>杀死 Google Glass，然后让它重生</h3>
+    <div class="desc">
+
+突然之间，许多美国知名科技媒体开始高呼“杀死 Google Glass”以及“Google Glass 已死”，观点大变背后是 Google Glass 确实近<a href="http://demo.mobantu.com/monkey/493" target="_blank">[查看详情]</a></div>
+    <div class="info"><span class="time">
+      <time class="timeago" datetime="2014-12-01 10:48:15">3年前 (2014-12-01)</time>
+      </span><span class="share"> 分享到
+      <div class="share-group"><a class="weixin mobile-hide" href="javascript:void(0)" ref="nofollow" target="_blank"><i class="icon-weixin"></i>
+        <div class="panel-weixin">
+          <section class="weixin-section">
+            <p><img alt="杀死 Google Glass，然后让它重生" src="http://s.jiathis.com/qrcode.php?url=http://demo.mobantu.com/monkey/493?via=wechat_qr" /></p>
+          </section>
+          <h3>打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</h3>
+        </div>
+        </a><a class="weibo" href="http://share.baidu.com/s?type=text&amp;searchPic=0&amp;sign=on&amp;to=tsina&amp;url=http://demo.mobantu.com/monkey/493&amp;title=杀死 Google Glass，然后让它重生" ref="nofollow" target="_blank"><i class="icon-weibo"></i></a></div>。
+      </span></div>
+  </section>
+<section class="selected">
+    <h3>自行车要不要智能？先看这 10 个创新</h3>
+    <div class="desc">
+
+自从张向东表示再创业，要把有限的生命奉献给无限的自行车事业之后，互联网刮起了“自行车”风。既然大家都那么想革掉传统自行<a href="http://demo.mobantu.com/monkey/491" target="_blank">[查看详情]</a></div>
+    <div class="info"><span class="time">
+      <time class="timeago" datetime="2014-12-01 10:47:30">3年前 (2014-12-01)</time>
+      </span><span class="share"> 分享到
+      <div class="share-group"><a class="weixin mobile-hide" href="javascript:void(0)" ref="nofollow" target="_blank"><i class="icon-weixin"></i>
+        <div class="panel-weixin">
+          <section class="weixin-section">
+            <p><img alt="自行车要不要智能？先看这 10 个创新" src="http://s.jiathis.com/qrcode.php?url=http://demo.mobantu.com/monkey/491?via=wechat_qr" /></p>
+          </section>
+          <h3>打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</h3>
+        </div>
+        </a><a class="weibo" href="http://share.baidu.com/s?type=text&amp;searchPic=0&amp;sign=on&amp;to=tsina&amp;url=http://demo.mobantu.com/monkey/491&amp;title=自行车要不要智能？先看这 10 个创新" ref="nofollow" target="_blank"><i class="icon-weibo"></i></a></div>。
+      </span></div>
+  </section>
+</div><div class="panel" style="display: none"><section class="product">
+    <a href="http://demo.mobantu.com/monkey/news/monkey" target="_blank">
+    <h3>Monkey</h3>
+    </a>
+    <p>仿2015新版36kr <span class="wp_keywordlink"><span class="wp_keywordlink"><a title="wordpress主题" href="http://www.mobantu.com/">wordpress主题</a></span></span>Monkey，适合资讯、<span class="wp_keywordlink_affiliate"><span class="wp_keywordlink_affiliate"><a title="View all posts in 新闻" href="http://www.mobantu.com/tag/newstheme" target="_blank">新闻</a></span></span>等站点使用。</p>
+<p>仿2015新版36kr <span class="wp_keywordlink"><span class="wp_keywordlink"><a title="wordpress主题" href="http://www.mobantu.com/">wordpress主题</a></span></span>Monkey，适合资讯、<span class="wp_keywordlink_affiliate"><span class="wp_keywordlink_affiliate"><a title="View all posts in 新闻" href="http://www.mobantu.com/tag/newstheme" target="_blank">新闻</a></span></span>等站点使用。</p>
+    <div class="info"><span class="time">2年前 (2015-08-03)</span><span class="share"> 分享到
+      <div class="share-group"><a class="weixin mobile-hide" href="javascript:void(0)" ref="nofollow" target="_blank"><i class="icon-weixin"></i>
+        <div class="panel-weixin">
+          <section class="weixin-section">
+            <p><img alt="533066" src="http://s.jiathis.com/qrcode.php?url=http://demo.mobantu.com/monkey/news/monkey?via=wechat_qr" /></p>
+          </section>
+          <h3>打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</h3>
+        </div>
+        </a><a class="weibo" href="http://share.baidu.com/s?type=text&amp;searchPic=0&amp;sign=on&amp;to=tsina&amp;url=http://demo.mobantu.com/monkey/news/monkey&amp;title=Monkey" ref="nofollow" target="_blank"><i class="icon-weibo"></i></a></div>
+      </span></div>
+  </section>
+</div></div></div></div>    </div>
+  </div>
+</div>
+<script src="http://demo.mobantu.com/monkey/wp-content/themes/monkey/static/js/ias.min.js"></script><footer class="common-footer">  <div class="sections">
+    <section class="widget-foot widget_text"><h3>关于我们</h3>          <div class="textwidget"><div class="links">
+              <a href="#">关于模板兔</a> | <a href="#">wordpress主题</a> | <a href="/hire">加入我们</a> | <a href="#">寻求报道</a> | <a href="#" class="app_download_footer">客户端下载</a>
+          </div><br>
+<div>
+本站托管在<a href="http://www.sugarhosts.com/zh-cn/hosting/shared-web-hosting/?pk_campaign=mobantutopcsh" rel="nofollow" target="_blank">SugarHosts</a>
+</div></div>
+        </section><section class="widget-foot widget_text"><h3>合作伙伴</h3>            <div class="textwidget"><ul class="footer-partner">
+              <li><a ref="nofollow" href="http://www.aliyun.com/" class="external" target="_blank"><img src="http://a.36krcnd.com/nil_class/20564a40-569b-4152-9cd9-8d5bd5ca9a4f/aly.png" height="16px"></a></li>
+              <li><a ref="nofollow" href="http://qcloud.com/" class="external" target="_blank"><img src="http://a.36krcnd.com/nil_class/b18b965b-65c2-4459-a378-ceeeae135f25/txy.png" alt="" height="21px" style="margin-top:-8px"></a></li>
+              <li><a ref="nofollow" href="http://qingcloud.com/" class="external" target="_blank"><img src="http://a.36krcnd.com/nil_class/4cf18275-e58e-4f6d-9b26-21e34ec71c7f/qy.png" alt="" height="21px" style="margin-top:-8px"></a></li>
+              <li><a ref="nofollow" href="https://www.yunpian.com/" class="external" target="_blank"><img src="http://a.36krcnd.com/nil_class/ea9523c9-0810-48c7-8047-d1a70a1a2caf/yp.png" alt="" height="17px"></a></li>
+              <li><a ref="nofollow" href="http://upyun.com/" class="external" target="_blank"><img src="http://a.36krcnd.com/nil_class/18863924-bd55-4645-8c12-6aef52e6c4f7/upy.png" alt="" height="11px"></a></li>
+              <li><a ref="nofollow" href="http://qiniu.com/" class="external" target="_blank"><img src="http://a.36krcnd.com/nil_class/4018d480-1ed0-4db2-9d75-a2404bc146b0/qny.png" alt="" height="17px"></a></li>
+              <li><a ref="nofollow" href="http://dnspod.cn/" class="external" target="_blank"><img src="http://a.36krcnd.com/nil_class/03706ea3-317b-415f-ad2f-84c7000bae7b/dp.png" alt="" height="10px"></a></li>
+              <li><a ref="nofollow" href="http://getui.com/" class="external" target="_blank"><img src="http://krplus-pic.b0.upaiyun.com/getui.png" height="22px" style="margin-top:-8px"></a>
+</li>
+          </ul></div>
+        </section>    <section class="qr-section"> <img class="qr" src="http://img.mobantu.com/qrcode.jpg" alt="微信">
+      <div>扫码关注微信公众平台</div>
+    </section>
+  </div>
+  <div class="bottom">
+    <div class="container">
+      <div class="copyright">Copyright MOBANTU.COM</div>
+      <div class="share">
+            <a class="icon-weibo" rel="nofollow" href="#"></a>
+                  <a class="icon-twitter" rel="nofollow" href="#"></a>
+                  <a class="icon-facebook" rel="nofollow" href="#"></a>
+
+      <a class="icon-rss" rel="nofollow" href="#"></a>
+            </div>
+    </div>
+  </div>
+</footer>
+<div class="fixed-tools J_fixedTools show">
+    <a class="icon-qr" href="javascript:void(0)"><span class="qr"><img alt="微信" src="http://img.mobantu.com/qrcode.jpg" /></span></a>   <a class="icon-arrow-up J_up" href="javascript:void(0)"></a>
+</div>
+<div id="sign" class="sign">
+    <div class="part loginPart">
+    <form id="login" action="http://demo.mobantu.com/monkey/wp-login.php" method="post" novalidate="novalidate">
+        <div id="register-active" class="switch">还没账号？马上注册&gt;&gt;</div>
+        <h3>登录<p class="status"></p></h3>
+        <p>
+            <label class="icon" for="username"><i class="fa fa-user"></i></label>
+            <input class="input-control" id="username" type="text" placeholder="请输入用户名" name="username" required="" aria-required="true">
+        </p>
+        <p>
+            <label class="icon" for="password"><i class="fa fa-lock"></i></label>
+            <input class="input-control" id="password" type="password" placeholder="请输入密码" name="password" required="" aria-required="true">
+        </p>
+        <p class="safe">
+            <label class="remembermetext" for="rememberme"><input name="rememberme" type="checkbox" checked="checked" id="rememberme" class="rememberme" value="forever">记住我的登录</label>
+            <a class="lost" href="http://demo.mobantu.com/monkey/wp-login.php?action=lostpassword">忘记密码 ?</a>
+        </p>
+        <p>
+            <input class="submit login-loader" type="button" value="登录" name="submit">
+            <input type="hidden" name="action" value="mobantu_login">
+        </p>
+        <a class="close"><i class="headericon-close"></i></a>
+        <input type="hidden" id="security" name="security" value="770a3b2fcc">
+        <input type="hidden" name="_wp_http_referer" value="/monkey/">
+    </form>
+    <div id="weixin_login"></div>
+        <div class="other-sign">
+      <p>使用第三方帐号快捷登录</p>
+      <div class="2-col"><a class="qqlogin" href="http://demo.mobantu.com/monkey/oauth/qq?rurl=http://demo.mobantu.com/monkey/" rel="nofollow"><i class="icon-qq"></i> <span>QQ登录</span></a></div>            <div class="2-col"><a class="weibologin" href="http://demo.mobantu.com/monkey/oauth/weibo?rurl=http://demo.mobantu.com/monkey/" rel="nofollow"><i class="icon-weibo"></i> <span>微博登录</span></a></div>    </div>
+        <div class="sign-tips"></div>
+    </div>
+    <div class="part registerPart">
+    <form id="register" action="http://demo.mobantu.com/monkey/wp-login.php?action=register" method="post" novalidate="novalidate">
+        <div id="login-active" class="switch">已有账号？快去登录&gt;&gt;</div>
+        <h3>注册<p class="status"></p></h3>
+        <p>
+            <label class="icon" for="user_name"><i class="fa fa-user"></i></label>
+            <input class="input-control" id="user_name" type="text" name="user_name" placeholder="输入英文用户名" required="" aria-required="true">
+        </p>
+        <p>
+            <label class="icon" for="user_email"><i class="fa fa-envelope"></i></label>
+            <input class="input-control" id="user_email" type="email" name="user_email" placeholder="输入常用邮箱" required="" aria-required="true">
+        </p>
+        <p>
+            <label class="icon" for="user_pass"><i class="fa fa-lock"></i></label>
+            <input class="input-control" id="user_pass" type="password" name="user_pass" placeholder="密码最小长度为6" required="" aria-required="true">
+        </p>
+        <p>
+            <label class="icon" for="user_pass2"><i class="fa fa-retweet"></i></label>
+            <input class="input-control" id="user_pass2" type="password" name="user_pass2" placeholder="再次输入密码" required="" aria-required="true">
+        </p>
+        <p id="captcha_inline">
+            <input class="input-control inline" type="text" id="captcha" name="captcha" placeholder="输入验证码" required>
+            <span class="captcha-clk inline">获取验证码</span>
+            <input type="hidden" name="action" value="mobantu_register">
+            <input class="submit inline register-loader" type="button" value="注册" name="submit" style="height: 38px;">
+        </p>
+        <a class="close"><i class="headericon-close"></i></a>
+        <input type="hidden" id="user_security" name="user_security" value="e4f9107929"><input type="hidden" name="_wp_http_referer" value="/monkey/">
+    </form>
+    <div class="sign-tips"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="ft-container J_FooterBanner"><div class="container"><a class="headericon-close J_closeFooterBanner" href="javascript:void(0)"></a><a class="button" href="" target="_blank"></a><span class="text"></span></div></div>
+<script type='text/javascript' src='http://demo.mobantu.com/monkey/wp-includes/js/wp-embed.min.js?ver=4.4.13'></script>
+<div style="display:none"></div>
+</body>
+</html>
